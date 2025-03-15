@@ -7,10 +7,9 @@
   --black: #000000;
 }
 
-
 .logo {
-    max-width: 10%;
-  }
+  max-width: 15%;
+}
 img {
   max-width: 100%;
   border-radius: 11px;
