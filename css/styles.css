@@ -15,11 +15,12 @@
   max-width: 50%;
   text-align: center;
   display: inline-block;
+  border: 1rem double var(--pink);
+  border-radius: 11px;
 }
 
 img {
   max-width: 100%;
-  border-radius: 11px;
 }
 
 body {
