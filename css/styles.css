@@ -10,6 +10,13 @@
 .logo {
   max-width: 15%;
 }
+
+.portrait {
+  max-width: 50%;
+  text-align: center;
+  display: inline-block;
+}
+
 img {
   max-width: 100%;
   border-radius: 11px;
