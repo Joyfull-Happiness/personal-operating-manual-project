@@ -32,10 +32,11 @@ header {
   background-color: var(--pink);
   /*   padding: 1rem; */
   border-bottom: 15px double var(--blue);
-  color: var(--white);
+  color: var(--black);
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  padding-right: 2rem;
 }
 h2 {
   font-family: Nunito Sans;
@@ -53,7 +54,10 @@ nav ul {
 }
 nav a {
   text-decoration: none;
-  color: var(--white);
+  color: var(--black);
+}
+nav a:hover {
+  color: #ffffff;
 }
 h1 {
   padding-left: 2rem;
