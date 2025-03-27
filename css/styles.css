@@ -97,8 +97,9 @@ h1 {
   padding: 3rem;
 }
 .coachingcard h3 {
-  font-weight: 900;
+  font-weight: 700;
   text-transform: uppercase;
+  text-decoration: solid;
 }
 footer {
   background-color: var(--pink);
