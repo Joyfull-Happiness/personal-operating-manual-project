@@ -62,6 +62,12 @@ nav a:hover {
 h1 {
   padding-left: 2rem;
 }
+.container {
+  max-width: 1200px;
+  margin: auto;
+  background-color: var(--pink);
+}
+
 .wrapper {
   display: grid;
   grid-column: 1fr;
@@ -133,6 +139,7 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     justify-items: center;
+    gap: 1rem;
   }
   .coachingcard {
     justify-content: center;
