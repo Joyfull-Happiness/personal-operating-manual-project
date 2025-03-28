@@ -92,7 +92,6 @@ h1 {
   grid-template-columns: 1fr;
   background-color: var(--white);
   gap: 2rem;
-  margin: 1rem;
 }
 
 .coachingcard {
@@ -107,9 +106,15 @@ h1 {
   text-transform: uppercase;
   text-decoration: solid;
 }
-
-.coachingcardF {
+.coachingcardc {
+  grid-column: 1/3;
+}
+.coachingcardd {
   background-color: var(--pink);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 3rem;
   grid-column: 1/3;
 }
 footer {
@@ -145,7 +150,7 @@ footer {
     justify-items: center;
     gap: 1rem;
   }
-  .coachingcardC {
+  .coachingcardc {
     grid-column: 1/3;
   }
 }
