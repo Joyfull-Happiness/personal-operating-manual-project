@@ -102,20 +102,17 @@ h1 {
   padding: 3rem;
 }
 .coachingcard h3 {
-  font-weight: 700;
+  font-weight: 900;
   text-transform: uppercase;
-  text-decoration: solid;
+  /* text-decoration: solid; */
 }
-.coachingcardc {
-  grid-column: 1/3;
-}
+
 .coachingcardd {
   background-color: var(--pink);
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 3rem;
-  grid-column: 1/3;
 }
 footer {
   background-color: var(--pink);
@@ -153,4 +150,6 @@ footer {
   .coachingcardc {
     grid-column: 1/3;
   }
+  .coachingcardd {
+    grid-column: 1/3;
 }
