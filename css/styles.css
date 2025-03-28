@@ -114,6 +114,7 @@ footer {
   padding: 1rem;
   display: block;
 }
+
 @media (min-width: 700px) {
   header {
     justify-content: space-between;
@@ -131,9 +132,11 @@ footer {
   .parentcoaching {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
+    justify-items: center;
   }
   .coachingcard {
     justify-content: center;
+    justify-items: center;
     text-align: left;
   }
   .coachingcardC {
