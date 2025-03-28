@@ -100,8 +100,8 @@ h1 {
   font-weight: 700;
   text-transform: uppercase;
   text-decoration: solid;
-  text-shadow: 4rem #ffffff;
 }
+
 footer {
   background-color: var(--pink);
   color: var(--white);
@@ -135,5 +135,8 @@ footer {
   .coachingcard {
     justify-content: center;
     text-align: left;
+  }
+  .coachingcardC {
+    grid-column: 1/3;
   }
 }
