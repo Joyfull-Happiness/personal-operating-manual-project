@@ -147,6 +147,11 @@ footer {
     justify-items: center;
     gap: 1rem;
   }
+  .coachingcard img{ 
+    max-width: fit-content;
+  
+
+  }
   .coachingcardc {
     grid-column: 1/3;
   }
