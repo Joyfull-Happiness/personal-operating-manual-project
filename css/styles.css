@@ -106,7 +106,13 @@ h1 {
   text-transform: uppercase;
   /* text-decoration: solid; */
 }
-
+.coachingcarda {
+  background-color: var(--pink);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 1rem;
+}
 .coachingcardd {
   background-color: var(--pink);
   justify-content: center;
@@ -147,9 +153,16 @@ footer {
     justify-items: center;
     gap: 1rem;
   }
-  /* .coachingcardc {
+  .coachingcardc {
     grid-column: 1/3;
   }
   .coachingcardd {
     grid-column: 1/3;
-} */
+}
+.coachingcarda{
+  grid-column: 1/3;
+}
+
+.img {
+  max-width:25%;
+}
