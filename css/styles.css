@@ -151,18 +151,18 @@ footer {
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
     justify-items: center;
-    gap: 1rem;
   }
-  .coachingcardc {
+ .coachingcarda{
+  grid-column: 1/3;
+}
+ .coachingcardc {
     grid-column: 1/3;
   }
   .coachingcardd {
     grid-column: 1/3;
 }
-.coachingcarda{
-  grid-column: 1/3;
-}
 
-.img {
-  max-width:25%;
+
+img {
+  max-width: 60%;
 }
