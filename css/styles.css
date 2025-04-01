@@ -93,6 +93,13 @@ h1 {
   background-color: var(--white);
   gap: 2rem;
 }
+.parentcoaching h2 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+.parentcoaching p {
+  font-size: 1.5rem;
+}
 
 .coachingcard,
 .coachingcarda,
@@ -103,7 +110,7 @@ h1 {
   align-items: center;
   text-align: center;
   padding: 2rem;
-  place-self: center;
+  /* place-self: center; */
 }
 .coachingcard h3 {
   font-weight: 900;
