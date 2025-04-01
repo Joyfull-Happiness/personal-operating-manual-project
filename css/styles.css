@@ -16,7 +16,7 @@
   text-align: center;
   display: inline-block;
   border: 1rem double var(--pink);
-  border-radius: 11px;
+  border-radius: 12px;
 }
 
 img {
@@ -86,7 +86,7 @@ h1 {
 .button:hover {
   background-color: var(--pink);
 }
-
+/* this is for the coaching page */
 .parentcoaching {
   display: grid;
   grid-template-columns: 1fr;
@@ -94,32 +94,23 @@ h1 {
   gap: 2rem;
 }
 
-.coachingcard {
+.coachingcard,
+.coachingcarda,
+.coachingcardc,
+.coachingcardd {
   background-color: var(--pink);
   justify-content: center;
   align-items: center;
   text-align: center;
   padding: 2rem;
+  place-self: center;
 }
 .coachingcard h3 {
   font-weight: 900;
   text-transform: uppercase;
   /* text-decoration: solid; */
 }
-.coachingcarda {
-  background-color: var(--pink);
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 1rem;
-}
-.coachingcardd {
-  background-color: var(--pink);
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  padding: 1rem;
-}
+
 footer {
   background-color: var(--pink);
   color: var(--white);
@@ -147,22 +138,19 @@ footer {
     margin-right: auto;
     max-width: 10%;
   }
+  /* this is for the coaching page */
   .parentcoaching {
     grid-template-columns: 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
+    /* grid-template-rows: 1fr 1fr 1fr 1fr; */
     justify-items: center;
   }
- .coachingcarda{
-  grid-column: 1/3;
-}
- .coachingcardc {
+  .coachingcarda {
+    grid-column: 1/3;
+  }
+  .coachingcardc {
     grid-column: 1/3;
   }
   .coachingcardd {
     grid-column: 1/3;
-}
-
-
-img {
-  max-width: ;
+  }
 }
