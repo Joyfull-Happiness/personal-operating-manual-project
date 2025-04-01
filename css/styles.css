@@ -110,12 +110,10 @@ h1 {
   align-items: center;
   text-align: center;
   padding: 2rem;
-  /* place-self: center; */
 }
 .coachingcard h3 {
   font-weight: 900;
-  text-transform: uppercase;
-  /* text-decoration: solid; */
+  /* text-transform: uppercase; */
 }
 
 footer {
