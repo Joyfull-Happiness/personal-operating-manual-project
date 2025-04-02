@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Ovo&display=swap");
 :root {
   --white: #ffffff;
-  --pink: #d8a995;
+  --pink: #f29871;
   --red: #b84210;
   --blue: #3cc1cd;
   --black: #000000;
@@ -94,7 +94,7 @@ h1 {
   gap: 2rem;
 }
 .parentcoaching h2 {
-  font-size: 2.5rem;
+  font-size: 2rem;
   text-transform: uppercase;
 }
 .parentcoaching p {
