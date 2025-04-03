@@ -58,6 +58,8 @@ nav a {
 }
 nav a:hover {
   color: #ffffff;
+  text-decoration: underline;
+  text-underline-offset: 0.5rem;
 }
 h1 {
   padding-left: 2rem;
@@ -85,7 +87,8 @@ h1 {
   margin: 2rem;
 }
 .button:hover {
-  background-color: var(--pink);
+  background-color: #92e5ee;
+  color: var(--black);
 }
 /* this is for the coaching page */
 .parentcoaching {
