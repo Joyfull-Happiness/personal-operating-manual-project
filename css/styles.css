@@ -1,9 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Ovo&display=swap");
 :root {
   --white: #ffffff;
-  --pink: #f29871;
+  --pink: #ffcb94;
   --red: #b84210;
-  --blue: #3cc1cd;
+  /*--blue: #3cc1cd; */
+  --blue: #ac3315;
+
   --black: #000000;
 }
 
@@ -87,7 +89,7 @@ h1 {
   margin: 2rem;
 }
 .button:hover {
-  background-color: #92e5ee;
+  background-color: #de7459;
   color: var(--black);
 }
 /* this is for the coaching page */
