@@ -82,6 +82,7 @@ h1 {
   border-radius: 10px;
   text-decoration: none;
   text-transform: uppercase;
+  margin: 2rem;
 }
 .button:hover {
   background-color: var(--pink);
