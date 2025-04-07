@@ -110,7 +110,8 @@ h1 {
 .coachingcard,
 .coachingcarda,
 .coachingcardc,
-.coachingcardd {
+.coachingcardd,
+.codingcard {
   background-color: var(--pink);
   justify-content: center;
   align-items: center;
@@ -120,6 +121,10 @@ h1 {
 .coachingcard h3 {
   font-weight: 900;
   /* text-transform: uppercase; */
+}
+.codingcard img {
+  border: 0.5rem solid var(--black);
+  border-radius: 12px;
 }
 
 footer {
