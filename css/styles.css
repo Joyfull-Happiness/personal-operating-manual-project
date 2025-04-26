@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Ovo&display=swap");
 :root {
-  --dark: var(--#478CCF);
-  --darkest: var(--#4535C1);
-  --light: var(--#36C2CE);
-  --lightest: var(--#77E4C8);
+  --dark: #478ccf;
+  --darkest: #4535c1;
+  --light: #36c2ce;
+  --lightest: #77e4c8;
 
   --white: #ffffff;
   --black: #000000;
@@ -79,7 +79,7 @@ h1 {
 }
 
 .button {
-  background-color: var(--light);
+  background-color: var(--lightest);
   color: var(--white);
   padding: 1rem;
   display: inline-block;
@@ -89,14 +89,14 @@ h1 {
   margin: 2rem;
 }
 .button:hover {
-  background-color: var(--light);
-  color: var(--black);
+  background-color: var(--lightest);
+  transform: scale(1.2);
 }
 /* this is for the coaching page */
 .parentcoaching {
   display: grid;
   grid-template-columns: 1fr;
-  background-color: var(--white);
+  background-color: var(--lightest);
   gap: 2rem;
 }
 .parentcoaching h2 {
@@ -123,11 +123,11 @@ h1 {
   /* text-transform: uppercase; */
 }
 .codingcard img {
-  border: 0.5rem solid var(--black);
+  border: 0.5rem solid var(--darkest);
   border-radius: 12px;
 }
 .codingcard:hover {
-  transform: scale(1.04);
+  /* transform: scale(1.04); */
 }
 
 footer {
