@@ -126,6 +126,9 @@ h1 {
   border: 0.5rem solid var(--black);
   border-radius: 12px;
 }
+.codingcard:hover {
+  transform: scale(1.5);
+}
 
 footer {
   background-color: var(--pink);
