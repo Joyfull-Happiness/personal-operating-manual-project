@@ -127,7 +127,7 @@ h1 {
   border-radius: 12px;
 }
 .codingcard:hover {
-  transform: scale(1.5);
+  transform: scale(1.04);
 }
 
 footer {
