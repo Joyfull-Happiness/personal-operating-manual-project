@@ -1,10 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Ovo&display=swap");
 :root {
+  --dark: #f75a5a;
+  --darkest: #ffa955;
+  --light: #6de1d2;
+  --lightest: #ffd63a;
+
+  /* Color schemes:  */
+  /* 
   --dark: #cd104d;
   --darkest: #9c2c77;
   --light: #e14d2a;
-  --lightest: #fd841f;
-
+  --lightest: #fd841f; */
   /* 
   --dark: #520556;
   --darkest: #8b104e;
@@ -44,7 +50,7 @@ body {
 header {
   background-color: var(--lightest);
   padding: 1rem;
-  border-bottom: 15px double var(--darkest);
+  border-bottom: 15px double var(--dark);
   color: var(--black);
   display: flex;
   flex-flow: row wrap;
@@ -134,7 +140,7 @@ h1 {
   /* text-transform: uppercase; */
 }
 .codingcard img {
-  border: 0.5rem solid var(--darkest);
+  border: 0.5rem solid var(--dark);
   border-radius: 12px;
 }
 .codingcard:hover {
