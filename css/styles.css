@@ -140,7 +140,7 @@ h1 {
   /* text-transform: uppercase; */
 }
 .codingcard img {
-  border: 0.5rem solid var(--dark);
+  border: 0.5rem solid var(--lightest);
   border-radius: 12px;
 }
 .codingcard:hover {
