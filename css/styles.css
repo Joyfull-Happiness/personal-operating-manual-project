@@ -82,7 +82,9 @@ nav a:hover {
   text-underline-offset: 0.5rem;
 }
 .menu-toggle {
-  display: none;
+  display: none !important;
+  visibility: hidden;
+  opacity: 0;
   font-size: 30px;
   cursor: pointer;
 }
