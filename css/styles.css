@@ -47,39 +47,11 @@ body {
   margin: 0;
   text-align: center;
 }
-header {
-  background-color: var(--lightest);
-  padding: 1rem;
-  border-bottom: 15px double var(--dark);
-  color: var(--black);
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
-  padding-right: 2rem;
-}
+
 h2 {
   font-family: Nunito Sans;
 }
-nav ul {
-  list-style-type: none;
-  text-transform: uppercase;
-  display: flex;
-  flex-flow: center;
-  gap: 1rem;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  padding-top: 1rem;
-}
-nav a {
-  text-decoration: none;
-  color: var(--black);
-}
-nav a:hover {
-  color: #ffffff;
-  text-decoration: underline;
-  text-underline-offset: 0.5rem;
-}
+
 h1 {
   padding-left: 2rem;
 }
