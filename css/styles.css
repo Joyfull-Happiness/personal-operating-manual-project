@@ -121,11 +121,16 @@ h1 {
   text-decoration: none;
   text-transform: uppercase;
   margin: 2rem;
+
+
 }
 .button:hover {
   background-color: var(--lightest);
   transform: scale(1.2);
-  text-shadow: 2px 1px 2px #d5d5d5;
+  /* text-shadow: 2px 1px 2px #d5d5d5; */
+  font-weight: bolder;
+
+
 }
 /* this is for the coaching page */
 .parentcoaching {
