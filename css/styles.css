@@ -220,11 +220,11 @@ footer {
     left: 0;
   }
 
-  .navbar.active {
+  /* .navbar.active {
     display: flex;
   }
 
   .menu-toggle {
-    display: block;
+    display: block; */
   }
 }
