@@ -160,7 +160,7 @@ h1 {
 }
 .coachingcard h3 {
   font-weight: 900;
-  /* text-transform: uppercase; */
+  text-transform: uppercase;
 }
 .codingcard img {
   border: 0.5rem solid var(--dark);
