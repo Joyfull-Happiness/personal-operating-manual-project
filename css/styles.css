@@ -57,6 +57,7 @@ header {
   flex-flow: row wrap;
   justify-content: center;
   padding-right: 2rem;
+  align-items: center;
 }
 .fa-solid_fa-bars {
   color: black;
@@ -69,6 +70,7 @@ nav {
   /* width: 100%; */
   border-bottom: 2px solid var(--light);
   background-color: var(--light);
+  border-radius: 2rem;
 }
 nav label {
   text-align: right;
@@ -102,6 +104,7 @@ nav a:hover {
   color: #ffffff;
   text-decoration: underline;
   text-underline-offset: 0.5rem;
+  background-color: var(--lightest);
 }
 
 .navbar {
