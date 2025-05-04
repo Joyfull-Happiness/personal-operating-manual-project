@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Ovo&display=swap");
 :root {
-  --dark: #f75a5a;
+  /* --dark: #f75a5a;
   --darkest: #ffa955;
   --light: #6de1d2;
-  --lightest: #ffd63a;
+  --lightest: #ffd63a; */
 
   /* Color schemes:  */
   /* 
@@ -17,10 +17,10 @@
   --light: #ca431d;
   --lightest: #ff9900; */
 
-  /* --dark: #478ccf;
+  --dark: #478ccf;
   --darkest: #4535c1;
   --light: #36c2ce;
-  --lightest: #77e4c8; */
+  --lightest: #77e4c8;
 
   --white: #ffffff;
   --black: #000000;
@@ -56,7 +56,6 @@ header {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  padding-right: 2rem;
   align-items: center;
 }
 .fa-solid_fa-bars {
@@ -88,7 +87,7 @@ nav ul {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
-  padding-top: 1rem;
+  padding: 0.5rem;
 }
 nav a {
   text-decoration: none;
@@ -96,8 +95,7 @@ nav a {
   float: left;
   display: block;
   color: #f2f2f2;
-  text-align: center;
-  padding: 14px;
+  padding: 8px;
   text-decoration: none;
 }
 nav a:hover {
