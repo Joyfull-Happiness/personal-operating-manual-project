@@ -58,7 +58,9 @@ header {
   justify-content: center;
   padding-right: 2rem;
 }
-
+.fa-solid_fa-bars {
+  color: black;
+}
 nav label {
   text-align: right;
   display: block;
