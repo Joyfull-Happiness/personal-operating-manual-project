@@ -51,7 +51,7 @@ body {
 header {
   background-color: var(--lightest);
   padding: 1rem;
-  border-bottom: 15px double var(--dark);
+  border-bottom: 2px solid var(--light);
   color: var(--black);
   display: flex;
   flex-flow: row wrap;
@@ -103,7 +103,10 @@ nav a:hover {
   cursor: pointer;
 }
 /* ^^^^^The Navbar CSS Ends */
-
+.headingCard {
+  text-align: left;
+  padding: 3rem;
+}
 h2 {
   font-family: Nunito Sans;
 }
@@ -121,6 +124,10 @@ h1 {
   display: grid;
   grid-column: 1fr;
   padding: 2rem;
+  background-color: var(--light);
+}
+.card {
+  background-color: var(--light);
 }
 
 .button {
