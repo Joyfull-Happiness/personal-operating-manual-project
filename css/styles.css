@@ -61,6 +61,15 @@ header {
 .fa-solid_fa-bars {
   color: black;
 }
+nav {
+  position: sticky;
+  overflow: hidden;
+
+  top: 0;
+  /* width: 100%; */
+  border-bottom: 2px solid var(--light);
+  background-color: var(--light);
+}
 nav label {
   text-align: right;
   display: block;
@@ -82,6 +91,12 @@ nav ul {
 nav a {
   text-decoration: none;
   color: var(--black);
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px;
+  text-decoration: none;
 }
 nav a:hover {
   color: #ffffff;
