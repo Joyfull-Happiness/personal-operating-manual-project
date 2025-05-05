@@ -32,10 +32,7 @@
 
 .portrait {
   max-width: 50%;
-  text-align: center;
-  display: inline-block;
-  border: 1rem double var(--darkest);
-  border-radius: 12px;
+  /* display: inline-block; */
 }
 
 img {
@@ -54,8 +51,6 @@ header {
   color: var(--black);
   display: flex;
   flex-flow: row wrap;
-  justify-content: center;
-  /* align-items: center; */
 }
 .fa-solid_fa-bars {
   color: black;
@@ -68,9 +63,10 @@ nav {
   border-bottom: 6px solid var(--darkest);
   background-color: var(--light);
   border-radius: 3rem;
+  padding: none;
 }
 nav label {
-  text-align: right;
+  /* text-align: center; */
   display: block;
   padding: 0.5em;
   line-height: 1.6em;
@@ -119,9 +115,11 @@ nav a:hover {
   cursor: pointer;
 }
 /* ^^^^^The Navbar CSS Ends */
-.headingCard {
+.headingParent {
   text-align: left;
   padding: 3rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }
 h2 {
   font-family: Nunito Sans;
