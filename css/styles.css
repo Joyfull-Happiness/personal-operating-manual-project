@@ -37,6 +37,8 @@
 
 img {
   max-width: 100%;
+  padding: none;
+  margin: none;
 }
 
 body {
@@ -117,9 +119,13 @@ nav a:hover {
 /* ^^^^^The Navbar CSS Ends */
 .headingParent {
   text-align: left;
-  padding: 3rem;
   display: grid;
   grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+}
+.child {
+  padding-bottom: none;
+  margin-bottom: 0 auto;
 }
 h2 {
   font-family: Nunito Sans;
