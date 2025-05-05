@@ -63,12 +63,11 @@ header {
 nav {
   position: sticky;
   overflow: hidden;
-
   top: 0;
   /* width: 100%; */
   border-bottom: 6px solid var(--darkest);
   background-color: var(--light);
-  border-radius: 2rem;
+  border-radius: 3rem;
 }
 nav label {
   text-align: right;
@@ -102,6 +101,8 @@ nav a:hover {
   text-decoration: underline;
   text-underline-offset: 0.5rem;
   background-color: var(--lightest);
+  border-radius: 3rem;
+  border-spacing: 4cap;
 }
 
 .navbar {
