@@ -145,22 +145,38 @@ h1 {
   width: 90%;
   max-width: 1000px;
   margin: 0 auto;
-  padding: 2rem;
-
   display: flex;
-  background-color: var(--light);
   align-items: center;
   justify-content: center;
-  box-sizing: border-box;
 }
+
 .mainLeft {
+  width: 50%;
+  height: 600px;
+  background-image: url("../images/AI\ integration_image.png") no-repeat center /
+    cover;
+  border-radius: 8px;
 }
-.mainLeft,
+
 .mainRight {
+  width: 50%;
+  min-height: 400px;
   background-color: var(--dark);
-  border-radius: 1rem;
-  padding: 1rem;
-  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  border-radius: 8px;
+}
+.mainRight h1 {
+  font-size: 40px;
+  font-weight: lighter;
+}
+
+.mainRight h2 {
+  margin: 20px 0;
+  font-weight: 500;
+  line-height: 25px;
 }
 
 .button {
