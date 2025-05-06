@@ -211,6 +211,11 @@ h1 {
   border-bottom: 6px solid var(--darkest);
   border-right: 6px solid var(--darkest);
   box-shadow: 8px 8px var(--light);
+  max-width: 50%;
+  align-items: center;
+}
+a img:hover {
+  transform: scale(1.03);
 }
 .codingcard img {
   border: 0.5rem solid var(--dark);
