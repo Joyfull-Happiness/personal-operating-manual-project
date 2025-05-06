@@ -140,7 +140,7 @@ h1 {
   background-color: var(--lightest);
 }
 
-.wrapper {
+.mainCards {
   display: grid;
   grid-column: 1fr;
   padding: 2rem;
@@ -229,7 +229,7 @@ footer {
     justify-content: space-between;
     padding: 2rem;
   }
-  .wrapper {
+  .mainCards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
