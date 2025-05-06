@@ -142,16 +142,23 @@ h1 {
 }
 
 .mainCards {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
   padding: 2rem;
+
+  display: flex;
   background-color: var(--light);
+  align-items: center;
+  justify-content: center;
+  box-sizing: border-box;
 }
-.card {
+.mainLeft {
+}
+.mainLeft,
+.mainRight {
   background-color: var(--dark);
   border-radius: 1rem;
-
   padding: 1rem;
   text-align: center;
 }
@@ -172,8 +179,7 @@ h1 {
   transform: scale(1.2);
   font-weight: bolder;
   color: #ffffff;
-  text-decoration: underline;
-  text-underline-offset: 0.5rem;
+
   border-radius: 3rem;
   border-spacing: 4cap;
 }
